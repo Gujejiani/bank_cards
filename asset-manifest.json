@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bank_cards/static/css/main.28166c57.chunk.css",
+    "main.css": "/bank_cards/static/css/main.7fbc6862.chunk.css",
     "main.js": "/bank_cards/static/js/main.22dad4b3.chunk.js",
     "main.js.map": "/bank_cards/static/js/main.22dad4b3.chunk.js.map",
     "runtime-main.js": "/bank_cards/static/js/runtime-main.73f67ce7.js",
@@ -10,14 +10,14 @@
     "static/js/3.54e07ae7.chunk.js": "/bank_cards/static/js/3.54e07ae7.chunk.js",
     "static/js/3.54e07ae7.chunk.js.map": "/bank_cards/static/js/3.54e07ae7.chunk.js.map",
     "index.html": "/bank_cards/index.html",
-    "static/css/main.28166c57.chunk.css.map": "/bank_cards/static/css/main.28166c57.chunk.css.map",
+    "static/css/main.7fbc6862.chunk.css.map": "/bank_cards/static/css/main.7fbc6862.chunk.css.map",
     "static/js/2.9b914dcd.chunk.js.LICENSE.txt": "/bank_cards/static/js/2.9b914dcd.chunk.js.LICENSE.txt",
     "static/media/logo.22d7faaa.png": "/bank_cards/static/media/logo.22d7faaa.png"
   },
   "entrypoints": [
     "static/js/runtime-main.73f67ce7.js",
     "static/js/2.9b914dcd.chunk.js",
-    "static/css/main.28166c57.chunk.css",
+    "static/css/main.7fbc6862.chunk.css",
     "static/js/main.22dad4b3.chunk.js"
   ]
 }
