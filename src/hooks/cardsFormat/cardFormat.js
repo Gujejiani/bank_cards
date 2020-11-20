@@ -32,7 +32,7 @@ export default function () {
             },
             Delete: {
                 type: 'text',
-                name: 'Delete aqqount',
+                name: 'Delete account',
                 placeholder: 'user',
                 holder: 'Confirm pin',
                 transferName: 'user',
