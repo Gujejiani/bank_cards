@@ -1,0 +1,116 @@
+.Main {
+    display: flex;
+    flex-direction: row;
+    transition: all 0.9s ease-out;
+    /* es ease-in ზე გაქ დასაყენებელი */
+}
+
+.Container {
+
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    height: 80%;
+    width: 400px !important;
+    position: relative;
+    order: 1;
+    top: 100px;
+
+    align-items: flex-end;
+    /* transition: all 0.9s ease-out; */
+}
+
+.Main {
+    opacity: 1;
+}
+
+.secContainer {
+
+    margin: auto;
+
+    height: 80%;
+    width: 50%;
+    position: relative;
+    left: 0;
+    top: 90px;
+    /* margin-bottom: 40px; */
+
+
+}
+
+/* sum of cash flow */
+.In {
+    position: absolute;
+    left: 80px;
+    font-weight: bold;
+}
+
+.In span {
+    color: #4fa15a;
+    font-size: 20px;
+}
+
+.Out {
+    position: absolute;
+    left: 220px;
+    font-weight: bold;
+}
+
+.Out span {
+    color: #be2626;
+    font-size: 20px;
+}
+
+.CurrentBalance {
+    position: absolute;
+    left: 30px;
+    top: -40px;
+    font-size: 20px;
+}
+
+.UserLoggedOut {
+    opacity: 0;
+}
+
+.LogOut {
+    position: relative;
+    left: -10px;
+    font-weight: bold;
+}
+
+/* Welcome back user */
+.Message {
+    opacity: 1 !important;
+}
+
+@media(max-width: 920px) {
+    .Main {
+        flex-direction: column;
+    }
+
+    .Container {
+
+        margin-top: 100px;
+        order: 0;
+        margin: auto;
+        padding-bottom: 100px;
+    }
+
+    .secContainer {
+
+
+        width: 400px;
+
+    }
+}
+
+
+
+@media(max-width: 600px) {
+    .Container {
+        width: 100%;
+        left: 0;
+    }
+
+}

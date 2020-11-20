@@ -1,0 +1,91 @@
+.RegContainer {
+    width: 250px;
+    height: 300px;
+    /* //background-color: #ecc; */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 350px;
+
+    flex-direction: column;
+    text-align: center;
+    transition: all 0.8s ease-out;
+}
+
+.Cont h3 {
+    opacity: 0;
+    color: rgb(7, 151, 151);
+    opacity: 0.3;
+    transition: all 1s ease-out;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.PleaseLoginMessage {
+    color: rgb(7, 151, 151);
+    opacity: 1 !important;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 300px;
+}
+
+.Disabled {
+
+    background-color: #b1a0a0 !important;
+    cursor: not-allowed !important;
+}
+
+.Input {
+    position: relative;
+    width: 204px;
+    height: 20px;
+    background: #FBFBFB;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.Input:focus {
+    background-color: #f8f8f8;
+
+}
+
+.Input::placeholder {
+    color: #b1a0a0;
+    opacity: 0.7;
+}
+
+
+.Red {
+    border: 1px solid red;
+}
+
+.Green {
+    border: 1px solid green;
+}
+
+.Label {
+    color: #b1a0a0;
+}
+
+
+@media(max-height: 380px) {
+    body {
+        overflow: scroll;
+    }
+
+    .RegContainer {
+        top: 90px
+    }
+}
+
+@media(max-width: 500px) {
+    .RegContainer {
+        top: 200px
+    }
+}

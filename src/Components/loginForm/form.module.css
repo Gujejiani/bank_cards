@@ -1,0 +1,61 @@
+.Container {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+
+
+.Container button {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    visibility: hidden;
+
+}
+
+.Container i {
+    position: relative;
+    margin-top: 5px;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    color: #FBFBFB;
+
+
+}
+
+.Input {
+    position: relative;
+    margin-right: 15px;
+    width: 124px;
+    height: 20px;
+    background: #FBFBFB;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    text-align: center;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+@media(max-width: 900px) {
+
+
+    .Input {
+        position: relative;
+        left: 20px;
+        width: 80px;
+
+        background: #FBFBFB;
+        border-radius: 25px;
+
+    }
+
+    .Container i {
+        left: 30px;
+    }
+}

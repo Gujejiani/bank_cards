@@ -1,0 +1,21 @@
+.Buton {
+
+    width: 100px;
+    height: 25px;
+    position: relative;
+    background: #02849b;
+    border-radius: 15px;
+    color: #fff;
+    border: none;
+    left: 20%;
+    transform: translate(-50%);
+    transition: all 1s ease-in-out;
+    outline: none;
+    text-align: center;
+}
+
+.Buton:hover {
+    cursor: pointer;
+    background-color: #07b0ce;
+    ;
+}

@@ -1,0 +1,60 @@
+.Container {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    margin-top: 1px;
+    background-color: antiquewhite;
+
+    margin-top: 5px;
+    overflow: hidden;
+
+}
+
+
+
+
+.Depo {
+    position: relative;
+    top: 5px;
+    margin: auto;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+
+.Date {
+    position: absolute;
+    left: 50%;
+
+
+    top: 0px;
+
+}
+
+.Transferd {
+    position: absolute;
+    right: 5px;
+    z-index: 1;
+    margin-right: 10px;
+
+    top: 0;
+}
+
+
+
+@media(max-width: 920px) {
+    .Deposit {
+        width: 130px;
+        font-size: 15px;
+    }
+
+
+
+    .Date {
+        left: 200px;
+    }
+
+
+}

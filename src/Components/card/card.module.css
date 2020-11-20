@@ -1,0 +1,150 @@
+/* .Container {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+
+    height: 80%;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    top: 100px;
+
+    align-items: flex-end;
+} */
+.Spiner {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.HideSpiner {
+    display: none;
+}
+
+.Card {
+    position: relative;
+    margin: 20px;
+    border-radius: 40px;
+    width: 360px;
+    height: 180px;
+
+
+    /* transition: all 0.9s ease-out; */
+
+}
+
+.Card form {
+    display: inline;
+}
+
+.Card button {
+    visibility: hidden;
+}
+
+.Card i {
+    color: white;
+    position: relative;
+
+    top: 118px;
+    left: 20px;
+
+    padding: 0;
+    cursor: pointer;
+
+}
+
+
+
+.Card input {
+    position: relative;
+    top: 60%;
+    width: 30%;
+    margin: 10px;
+    height: 15%;
+    left: 20px;
+    outline: none;
+    text-align: center;
+    background: rgba(251, 251, 251, 0.5);
+    border-radius: 25px;
+    border: none;
+
+}
+
+.Card input:focus {
+    background: rgba(251, 236, 236, 0.5);
+
+}
+
+.Card label {
+
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    display: inline;
+    color: #0a0a0a;
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+}
+
+.Card .To {
+    position: absolute;
+    font-size: 13px;
+    top: 86%;
+    left: 15%;
+
+
+}
+
+.Card .Amount {
+    position: absolute;
+    font-size: 13px;
+    top: 86%;
+    left: 53%;
+}
+
+
+/* 
+.Request {
+    margin: 20px;
+    border-radius: 40px;
+    width: 300px;
+    height: 200px;
+
+    background-color: #004E7C,
+}
+
+.Delete {
+    margin: 20px;
+    border-radius: 40px;
+    width: 300px;
+    height: 200px;
+
+    background: #781A44;
+}
+
+
+
+/* Card names */
+
+
+
+
+/* 
+@media(max-width: 600px) {
+    .Container {
+        width: 100%;
+        left: 0;
+    }
+
+}
+
+*/
+
+@media(max-width: 850px) {
+    .Card {
+        width: 300px;
+
+    }
+
+}

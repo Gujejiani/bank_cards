@@ -1,0 +1,39 @@
+.Container p {
+    color: rgb(195, 231, 200);
+    position: absolute;
+    top: 50px;
+    left: 20px;
+
+    font-weight: bold;
+
+    transition: opacity 0.6s ease-in;
+    opacity: 0;
+}
+
+
+
+.Hide {
+    opacity: 0 !important;
+}
+
+
+
+.Succes {
+
+    color: rgb(195, 231, 200);
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    opacity: 0.5;
+    font-weight: bold;
+    opacity: 1 !important;
+}
+
+.Fail {
+    color: rgb(90, 14, 5) !important;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    opacity: 1 !important;
+    font-weight: bold;
+}
